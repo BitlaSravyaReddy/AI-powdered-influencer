@@ -26,7 +26,7 @@ class RealTimeInfluencer:
         
         # Setup LLM
 # AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc
-        self.llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-001", api_key="AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc")
+        self.llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-001")
         self.recording_process = None
         
     def start_recording_with_mic(self):
