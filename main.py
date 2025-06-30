@@ -115,7 +115,7 @@ import asyncio
 load_dotenv()
 async def main():
 # Use the LLM directly for simple tasks
-    llm = ChatGoogle(model='gemini-2.0-flash-exp' , api_key='AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc')
+    llm = ChatGoogle(model='gemini-2.0-flash-exp' )
 
     # For simple text-based tasks, call the LLM directly
     response = await llm.ainvoke("What is 15 + 17?")
