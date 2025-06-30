@@ -56,7 +56,7 @@ class Details(BaseModel):
 controller = Controller(output_model=Posts)  
 controller1 = Controller(output_model=Details)  
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", api_key="AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 browser=BrowserSession(
     headless=True,
