@@ -54,19 +54,18 @@ The project executes the following steps automatically:
 
 ## Project Structure
 
-ai-powdered-influencer/
-├── final.py # Main driver file for influencer session
-|
-├── navbar-review.py # review each navbar element
-|
-|── audio.py # pyttsx3 voice output logic
-│├── llm_interaction.py # Handles prompts and responses from Gemini/OpenAI
-│├── demo.py # Sample Brave session automation with browser-use
-│└── reviewing.py # Product Hunt website Ui review logic
-├── main1.py #
-├── .env # Stores API keys (not committed)
+📁 BitlaSravyaReddy/
+├── README.md
+├── demo.py
+├── final.py
+├── influencer_video_1750429767.mp4
+├── influencer_video_1750431069.mp4
+├── main.py
+├── main1.py
+├── navbar-reviw.py
 ├── requirements.txt
-└── README.md
+└── reviewing.py
+
 
 ---
 
