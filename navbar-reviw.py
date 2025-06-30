@@ -23,7 +23,7 @@ class Navbar(BaseModel):
 controller=Controller(output_model=Navbar)    
 
 # Initialize the model
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", api_key="AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 
 browser=BrowserSession(
