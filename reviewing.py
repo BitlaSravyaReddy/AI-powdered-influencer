@@ -62,7 +62,7 @@ def speak(text):
         tts.say(text)
         tts.runAndWait()
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",api_key="AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 navbar_str = ['How it works', 'Usecases', 'Features', 'Pricing']
 async def main():
     browser_session = BrowserSession(keep_alive=True , headless=True,
