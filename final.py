@@ -28,7 +28,7 @@ class Posts(BaseModel):
 controller1=Controller(output_model=Posts)	
 	
 
-llm= ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key="AIzaSyB3bTFSbph48oMQXTohSI9VnzkCrL8LUVc")
+llm= ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 browser_session = BrowserSession(
     keep_alive=True, 
