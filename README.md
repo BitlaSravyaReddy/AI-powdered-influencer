@@ -53,7 +53,7 @@ The project executes the following steps automatically:
 ---
 
 ## Project Structure
-
+```
 📁 BitlaSravyaReddy/
 ├── README.md
 ├── demo.py
@@ -65,10 +65,7 @@ The project executes the following steps automatically:
 ├── navbar-reviw.py
 ├── requirements.txt
 └── reviewing.py
-
-
----
-
+```
 
 ---
 
