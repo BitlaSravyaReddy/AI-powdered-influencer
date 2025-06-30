@@ -55,14 +55,15 @@ The project executes the following steps automatically:
 ## Project Structure
 
 ai-powdered-influencer/
-├── main.py # Main driver file for influencer session
-├── utils/
-│ ├── tts_engine.py # pyttsx3 voice output logic
-│ ├── llm_interaction.py # Handles prompts and responses from Gemini/OpenAI
-│ ├── browser_handler.py # Brave session automation with browser-use
-│ └── product_scraper.py # Product Hunt scraping logic
-├── models/
-│ └── output_model.py # Pydantic models for typed output
+├── final.py # Main driver file for influencer session
+|
+├── navbar-review.py # review each navbar element
+|
+|── audio.py # pyttsx3 voice output logic
+│├── llm_interaction.py # Handles prompts and responses from Gemini/OpenAI
+│├── demo.py # Sample Brave session automation with browser-use
+│└── reviewing.py # Product Hunt website Ui review logic
+├── main1.py #
 ├── .env # Stores API keys (not committed)
 ├── requirements.txt
 └── README.md
@@ -116,26 +117,28 @@ GEMINI_API_KEY=your_gemini_api_key
 # OR for OpenAI
 OPENAI_API_KEY=your_openai_api_key
 
-Running the Project
+## Running the Project
 Simply run:
 
 python main.py
 
 The bot will:
 
-Open Brave browser,
+1. Open Brave browser,
 
-Fetch and visit top products,
+2. Fetch and visit top products,
 
-Analyze each section,
+3. Analyze each section,
 
-Speak human-like feedback,
+4. Speak human-like feedback,
 
-Close after completing all tasks.
+5. Close after completing all tasks.
 
 
 
-Model Evaluation Insights
+## Model Evaluation Insights
+
+
 According to our internal research, various open-source local LLMs were tested to automate and narrate browser sessions. However, most models failed to fully comprehend or execute the multi-step interaction flow. Here's a summary:
 
 | Model Name              | Observation / Limitation                                      |
