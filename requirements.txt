@@ -1,0 +1,9 @@
+browser-use
+langchain-openai
+opencv-python
+pyttsx3
+pydub
+ffmpeg-python
+openai
+asyncio
+pathlib
